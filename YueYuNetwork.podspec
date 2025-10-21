@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YueYuNetwork'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Yue Yu network A short description of YueYuNetwork.'
 
 # This description is used to generate tags and improve search results.
@@ -42,6 +42,6 @@ TODO: Add long description of the pod here.
   
   s.dependency 'Alamofire', '5.10.2'
   s.dependency 'Moya', '15.0'
-  s.dependency 'HandyJSON', '5.0.2'
+  s.dependency 'HandyJSON', '5.0.4-beta'
   
 end

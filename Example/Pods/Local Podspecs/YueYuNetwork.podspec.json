@@ -1,6 +1,6 @@
 {
   "name": "YueYuNetwork",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "Yue Yu network A short description of YueYuNetwork.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/CoderSQ/YueYuNetwork",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/CoderSQ/YueYuNetwork.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "13.0"
@@ -27,7 +27,7 @@
       "15.0"
     ],
     "HandyJSON": [
-      "5.0.2"
+      "5.0.4-beta"
     ]
   }
 }
