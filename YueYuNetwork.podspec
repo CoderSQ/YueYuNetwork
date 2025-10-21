@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YueYuNetwork'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'Yue Yu network A short description of YueYuNetwork.'
 
 # This description is used to generate tags and improve search results.
