@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YueYuNetwork'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YueYuNetwork.'
+  s.summary          = 'Yue Yu network A short description of YueYuNetwork.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/CoderSQ/YueYuNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'YueYuNetwork/Classes/**/*'
   
@@ -39,4 +39,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'Alamofire', '5.10.2'
+  s.dependency 'Moya', '15.0'
+  s.dependency 'HandyJSON', '5.0.2'
+  
 end
